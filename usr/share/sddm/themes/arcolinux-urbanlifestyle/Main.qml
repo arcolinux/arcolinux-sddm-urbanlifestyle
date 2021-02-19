@@ -214,7 +214,7 @@ Rectangle {
 			ComboBox {
 				id: session
 				color: '#99ffffff' // ARGB
-				focusColor: '#85c92d'
+				focusColor: '#7A8A99'
 				hoverColor: focusColor
 				arrowIcon: config.angleDown
 				model: sessionModel
