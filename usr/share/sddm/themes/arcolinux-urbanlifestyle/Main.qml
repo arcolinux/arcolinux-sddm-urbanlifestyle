@@ -134,7 +134,7 @@ Rectangle {
 				font.bold: false
 				font.pixelSize: 15
 				text: userModel.lastUser
-				focusColor: '#69d6ac'
+				focusColor: '#91adbb'
 				hoverColor: focusColor
 
 				Layout.columnSpan: loginBoxLayout.columns - 1
@@ -172,7 +172,7 @@ Rectangle {
 				color: '#99ffffff' // ARGB
 				font.bold: false
 				font.pixelSize: 14
-				focusColor: '#ebaf1d'
+				focusColor: '#91adbb'
 				hoverColor: focusColor
 
 				Layout.columnSpan: loginBoxLayout.columns - 1
@@ -214,7 +214,7 @@ Rectangle {
 			ComboBox {
 				id: session
 				color: '#99ffffff' // ARGB
-				focusColor: '#7A8A99'
+				focusColor: '#91adbb'
 				hoverColor: focusColor
 				arrowIcon: config.angleDown
 				model: sessionModel
@@ -232,7 +232,7 @@ Rectangle {
 			LayoutBox {
 				id: keyboardLayout
 				color: '#99ffffff' // ARGB
-				focusColor: '#31d8de'
+				focusColor: '#91adbb'
 				hoverColor: focusColor
 				arrowIcon: config.angleDown
 				z: 1
