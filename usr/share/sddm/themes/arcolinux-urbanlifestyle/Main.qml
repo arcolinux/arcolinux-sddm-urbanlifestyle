@@ -51,7 +51,7 @@ Rectangle {
 		id: loginBox
 		anchors.left: parent.left
 		anchors.top: parent.top
-		anchors.topMargin: 70
+		anchors.topMargin: 40
 		anchors.leftMargin: anchors.topMargin
 		width: 350
 		height: loginBoxLayout.implicitHeight + (loginBoxLayout.anchors.margins * 2)
