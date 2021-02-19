@@ -38,7 +38,7 @@ Rectangle {
 		anchors.fill: parent
 		anchors.centerIn: parent
 		source: config.background
-		fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectCrop
 
 		onStatusChanged: {
 			if (status === Image.Error && source !== config.defaultBackground) {
