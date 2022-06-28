@@ -1,7 +1,7 @@
 /**
  * Urban LifeStyle SDDM Theme
  *
- * @author Alfredo Ramos <alfredo.ramos@yandex.com>
+ * @author Alfredo Ramos <alfredo.ramos@protonmail.com>
  * @copyright 2015 Alfredo Ramos
  * @license GPL-3.0-or-later
  */
@@ -38,7 +38,7 @@ Rectangle {
 		anchors.fill: parent
 		anchors.centerIn: parent
 		source: config.background
-		fillMode: Image.PreserveAspectCrop
+		fillMode: Image.PreserveAspectFit
 
 		onStatusChanged: {
 			if (status === Image.Error && source !== config.defaultBackground) {
@@ -51,7 +51,7 @@ Rectangle {
 		id: loginBox
 		anchors.left: parent.left
 		anchors.top: parent.top
-		anchors.topMargin: 40
+		anchors.topMargin: 70
 		anchors.leftMargin: anchors.topMargin
 		width: 350
 		height: loginBoxLayout.implicitHeight + (loginBoxLayout.anchors.margins * 2)
